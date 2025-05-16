@@ -76,7 +76,7 @@ export default function TestimonialSlider() {
               ))}
             </div>
             <p className="mb-6 text-lg italic text-gray-700">
-              "{testimonials[currentIndex].content}"
+              &quot;{testimonials[currentIndex].content}&quot;
             </p>
             <h3 className="text-xl font-bold">
               {testimonials[currentIndex].name}
